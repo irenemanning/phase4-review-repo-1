@@ -33,21 +33,18 @@ const Signup = ({onNewUser}) => {
         <label>Username:</label>
          <input
            type="text"
-           required
            value={username}
            onChange={(e) => setUsername(e.target.value)}
          />
          <label>Password:</label>
          <input
            type="text"
-           required
            value={password}
            onChange={(e) => setPassword(e.target.value)}
          />
          <label>First Name:</label>
          <input
            type="text"
-           required
            value={first_name}
            onChange={(e) => setFirst_name(e.target.value)}
          />

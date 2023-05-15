@@ -1,9 +1,11 @@
 ## Overview
-Like That is an application designed for users to rate and review skincare products. This app is built with a React frontend and a Ruby-on-Rails backend.
+Like That is an application designed for users to rate and review skincare products. This app is built with a React frontend and a Ruby-on-Rails backend. It uses sqlite3 as the database manager. 
 
 Running the Application
 To run the backend of this application, run the following commands in a terminal: 
 - bundle install (to install dependencies) 
+- rails db:drop
+- rails db:create
 - rails db:migrate (to migrate migrate database)
 - rails db:seed (to seed database) 
 - rails s (to run rails server)
