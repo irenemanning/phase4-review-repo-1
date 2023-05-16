@@ -5,15 +5,6 @@ import ReviewCard from "./ReviewCard";
 
 const ListedReviews = ({product, addReview, reviews, user, products, setReviews, editReview, onDeleteReview}) => {
     
-   
-    
-    const [errors, setErrors] = useState([]);
-    
-
-
-
-
-    
 
     const reviewList = product?.reviews.map((review) => <ReviewCard review={review} setReviews={setReviews} editReview={editReview} onDeleteReview={onDeleteReview} />)
 

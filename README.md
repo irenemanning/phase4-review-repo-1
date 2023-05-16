@@ -1,5 +1,6 @@
 ## Overview
 Like That is an application designed for users to rate and review skincare products. This app is built with a React frontend and a Ruby-on-Rails backend. It uses sqlite3 as the database manager. 
+It was built by Lizzie Anthony for her phase 4 project. Ben Aschenbrenner forked and cloned it and made some changes and updates to make it a suitable tool for teaching and learning. 
 
 Running the Application
 To run the backend of this application, run the following commands in a terminal: 
@@ -10,9 +11,9 @@ To run the backend of this application, run the following commands in a terminal
 - rails db:seed (to seed database) 
 - rails s (to run rails server)
 
-To run the frontend of this application, run the following commands in a separate terminal: 
-- npm install --prefix client (to install dependencies) 
-- npm start --prefix client (to start React server)
+To run the frontend of this application, open up a new terminal, navigate to the client folder and run the following commands: 
+- npm install (to install dependencies) 
+- npm start (to start React server)
 
 ## Features and How to Use
 
