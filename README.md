@@ -11,7 +11,7 @@ To run the backend of this application, run the following commands in a terminal
 - rails db:seed (to seed database) 
 - rails s (to run rails server)
 
-To run the frontend of this application, open up a new terminal, navigate to the client folder and run the following commands: 
+To run the frontend of this application, open up a new terminal, navigate to the client folder (I do this to avoid the mistake of creating a package.json file in the main directory) and run the following commands: 
 - npm install (to install dependencies) 
 - npm start (to start React server)
 

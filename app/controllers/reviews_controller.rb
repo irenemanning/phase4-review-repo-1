@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
-before_action :authorize 
+# before_action :authorize 
 
     def index
         if params[:product_id]
@@ -15,6 +15,12 @@ before_action :authorize
             render json: reviews
         end
     end
+
+    def show 
+        review = Review.find(params[:id])
+        render json: review
+    end
+
 
     def create 
         review = current_user.reviews.create!(review_params)
@@ -32,6 +38,7 @@ before_action :authorize
         review.destroy
         head :no_content
     end
+
 
     private
 
